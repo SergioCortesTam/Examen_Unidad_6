@@ -42,40 +42,6 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#requisitos">🚀 Requisitos</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#instalacion-y-configuracion">🔧 Instalación y Configuración</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#1-instalacion-de-python-3-y-pip">1️⃣ Instalación de Python 3 y pip</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#windows">🖥️ Windows</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#linux">🐧 Linux</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#2-creacion-y-activacion-de-un-entorno-virtual">2️⃣ Creación y Activación de un Entorno Virtual</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#windows_1">🔹 Windows</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#linuxmac">🔹 Linux/Mac</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#3-instalacion-de-dependencias">3️⃣ Instalación de Dependencias</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#4-creacion-de-tu-primera-aplicacion-hola-mundo">4️⃣ Creación de tu Primera Aplicación "Hola Mundo"</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#5-ejecucion-de-la-aplicacion">5️⃣ Ejecución de la Aplicación</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#windows_2">🔹 Windows</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#linuxmac_1">🔹 Linux/Mac</a>
-    </li>
-        </ul>
-    </li>
-        </ul>
-    </li>
     </ul>
                 </li>
               </ul>
@@ -115,72 +81,9 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="guia-de-instalacion-y-configuracion">Guía de Instalación y Configuración</h1>
-<p><img alt="Python Logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" /></p>
-<p>Bienvenido a esta guía rápida para instalar y configurar tu entorno de desarrollo en Python con PySide6.</p>
-<hr />
-<h2 id="requisitos">🚀 Requisitos</h2>
-<p>✅ <strong>Python 3.x</strong>
-✅ <strong>pip (gestor de paquetes de Python)</strong></p>
-<p>Si no los tienes instalados, sigue los pasos a continuación.</p>
-<hr />
-<h2 id="instalacion-y-configuracion">🔧 Instalación y Configuración</h2>
-<h3 id="1-instalacion-de-python-3-y-pip">1️⃣ Instalación de Python 3 y pip</h3>
-<h4 id="windows">🖥️ Windows</h4>
-<ol>
-<li>Descarga Python desde <a href="https://www.python.org/downloads/">python.org</a>.</li>
-<li>Durante la instalación, marca la opción <strong>"Add Python to PATH"</strong>.</li>
-<li>Verifica la instalación ejecutando en la terminal:</li>
-</ol>
-<pre><code class="language-sh">python --version
-pip --version
-</code></pre>
-<h4 id="linux">🐧 Linux</h4>
-<p>Para Debian/Ubuntu:</p>
-<pre><code class="language-sh">sudo apt update &amp;&amp; sudo apt install python3 python3-pip -y
-</code></pre>
-<p>Para Fedora:</p>
-<pre><code class="language-sh">sudo dnf install python3 python3-pip -y
-</code></pre>
-<p>Verifica la instalación:</p>
-<pre><code class="language-sh">python3 --version
-pip3 --version
-</code></pre>
-<hr />
-<h3 id="2-creacion-y-activacion-de-un-entorno-virtual">2️⃣ Creación y Activación de un Entorno Virtual</h3>
-<p>Los entornos virtuales son esenciales para mantener tus proyectos organizados.</p>
-<h4 id="windows_1">🔹 Windows</h4>
-<pre><code class="language-sh">python -m venv venv
-venv\Scripts\activate
-</code></pre>
-<h4 id="linuxmac">🔹 Linux/Mac</h4>
-<pre><code class="language-sh">python3 -m venv venv
-source venv/bin/activate
-</code></pre>
-<p>Verás que el prompt de tu terminal cambia, indicando que el entorno virtual está activo.</p>
-<hr />
-<h3 id="3-instalacion-de-dependencias">3️⃣ Instalación de Dependencias</h3>
-<p>Con el entorno virtual activo, instala <strong>PySide6</strong> (para crear interfaces gráficas con Qt):</p>
-<pre><code class="language-sh">pip install PySide6
-</code></pre>
-<hr />
-<h3 id="4-creacion-de-tu-primera-aplicacion-hola-mundo">4️⃣ Creación de tu Primera Aplicación "Hola Mundo"</h3>
-<p>Ahora que todo está listo, crea un archivo <code>main.py</code> y agrega este código:</p>
-<pre><code class="language-python">from PySide6.QtWidgets import QApplication, QLabel
-import sys
-
-app = QApplication(sys.argv)
-window = QLabel('🚀 ¡Hola, Mundo!')
-window.show()
-sys.exit(app.exec())
-</code></pre>
-<hr />
-<h3 id="5-ejecucion-de-la-aplicacion">5️⃣ Ejecución de la Aplicación</h3>
-<p>📌 Para ejecutar el programa:</p>
-<h4 id="windows_2">🔹 Windows</h4>
-<pre><code class="language-sh">python main.py
-</code></pre>
-<h4 id="linuxmac_1">🔹 Linux/Mac</h4>
-<pre><code class="language-sh">python3 main.py
+<pre><code>- Un título.
+- Una breve descripción.
+- Un índice de las secciones de la documentación.
 </code></pre>
               
             </div>
@@ -230,5 +133,5 @@ sys.exit(app.exec())
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-02-19 15:46:42.092108+00:00
+Build Date UTC : 2025-02-19 15:57:01.598581+00:00
 -->
