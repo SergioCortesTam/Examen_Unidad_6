@@ -1,4 +1,4 @@
 # Descarga en PDF
 
-Para descargar el sitio entero, haz [clic aquí](Guía_Instalación_Windows_11.pdf)
-Para descargar el sitio entero, haz [clic aquí](Especificaciones_Técnicas_iPhone_16.pdf)
+Para descargar Guía Instalación Windows 11 , haz [clic aquí](Guía_Instalación_Windows_11.pdf)
+Para descargar Especificaciones Técnicas iPhone 16 , haz [clic aquí](Especificaciones_Técnicas_iPhone_16.pdf)
