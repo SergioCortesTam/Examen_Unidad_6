@@ -2,70 +2,67 @@
 
     - Examen Práctico Unidad 6 - Documentación de Aplicaciones
     
-        - Formato: 
-        
-        - Home: index.md
-        - Guía de Instalación Windows 11: Guía_Instalación_Windows_11.md
-        - Especificaciones Técnicas iPhone 16: Especificaciones_Técnicas_iPhone_16.md
-        - Descarga de la documentación en formato PDF: PDF.md
+    - Formato: 
     
-- Instrucciones:
+  - Home: index.md
+  - Guía de Instalación Windows 11: Guía_Instalación_Windows_11.md
+  - Especificaciones Técnicas iPhone 16: Especificaciones_Técnicas_iPhone_16.md
+  - Descarga de la documentación en formato PDF: PDF.md
+    
+    - Instrucciones:
+    
 
-1.  Crea un repositorio en GitHub llamado Examen_Unidad_6
+## Parte 1: Configuración de MkDocs
 
-2.  Clona el repositorio en tu máquina local.
+1. Crear un repositorio en GitHub llamado `Examen_Unidad_6`.
+2. Clonar el repositorio en la máquina local.
+3. Inicializar un proyecto con MkDocs.
 
-3.  Crea la estructura inicial del proyecto utilizando MkDocs.
+### Configuración de `mkdocs.yml`
 
-Parte 1: Configuración de MkDocs
+- Agregar las siguientes páginas:
+  - **Inicio**
+  - **Guía de Instalación Windows 11**
+  - **Especificaciones Técnicas iPhone 16**
+  - **Descarga de la documentación en PDF**
+- Configurar el tema `readthedocs`.
 
-1. Edita el archivo mkdocs.yml para personalizar el sitio web. Debe contener como mínimo las siguientes páginas:
+## Parte 2: Creación de Contenido en Markdown
 
-    Inicio
-    Guía de Instalación Windows 11
-    Especificaciones Técnicas iPhone 16
-    Descarga de la documentación en formato PDF
+1. **Página de Inicio** (`index.md`):
+   - Título.
+   - Breve descripción.
+   - Índice de secciones.
 
-2. Configura el tema readthedocs en mkdocs.yml.
+2. **Guía de Instalación de Windows 11** (`instalacion_windows11.md`):
+   - Utilizar la información proporcionada en el material del examen.
 
-Parte 2: Creación de Contenido en Markdown
+3. **Especificaciones Técnicas - iPhone 16** (`especificaciones_iphone16.md`):
+   - Basado en la documentación proporcionada.
 
-1. Página de Inicio: Crea un archivo index.md en el directorio docs con el contenido de la página de inicio. Incluye:
+4. **Descarga en PDF**:
+   - Asegurar que la documentación pueda descargarse en formato PDF.
 
-    Un título.
-    Una breve descripción.
-    Un índice de las secciones de la documentación.
+## Parte 3: Publicación en GitHub Pages
 
-2. Guía Completa para la Instalación de Windows 11: Crea un archivo llamado instalacion_windows11.md en el directorio docs. Para ello, utiliza la información del archivo "Guía Completa para la Instalación de Windows 11" proporcionado como material para este examen.
+1. Desplegar la documentación en **GitHub Pages**.
+2. Verificar que la URL sea accesible y evitar errores **404**.
 
-3. Especificaciones Técnicas - iPhone 16: Crea un archivo llamado especificaciones_iphone16.md en el directorio docs.  Para ello, utiliza la información del archivo Especificaciones técnicas - iPhone 16 proporcionado como material para este examen.
+## Parte 4: Información a Entregar
 
-4. Descarga en formato PDF: Asegúrate de que la documentación esté disponible en formato PDF y que se pueda descargar fácilmente.
+- Archivo `mkdocs.yml`.
+- Archivos **Markdown** (`.md`).
+- Archivos **PDF**.
+- Enlace **GitHub Pages** con la documentación publicada.
 
-Parte 3: Publicación en GitHub Pages
+## Parte 5: Evaluación
 
-1. Despliega la documentación en GitHub Pages.
+Se evaluará:
 
-2. Asegúrate de que la documentación se haya desplegado correctamente y sea accesible desde la URL proporcionada por GitHub Pages.
-
-Nota: Evita que se muestre el mensaje "Page not found 404", ya que esto afectará la calificación.
-
-Parte 4: Información a Entregar:
-
-1. Archivo mkdocs.yml.
-
-2. Archivos *.md (Markdown).
-
-3. Archivos *.PDF
-
-4. Enlace URL del sitio GitHub con la publicación de la documentación.
-
-Parte 5: Evaluación
-
-    La correcta configuración de MkDocs y GitHub Pages.
-    La calidad y claridad del contenido en Markdown.
-    La estructura y organización de la documentación.
-    La entrega de los archivos y URL solicitados.
+- Configuración correcta de MkDocs y GitHub Pages.
+- Calidad del contenido en **Markdown**.
+- Organización de la documentación.
+- Entrega de los archivos y enlace solicitado.
 
 
 

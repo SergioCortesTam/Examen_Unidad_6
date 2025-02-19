@@ -42,6 +42,20 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Home</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#parte-1-configuracion-de-mkdocs">Parte 1: Configuración de MkDocs</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#configuracion-de-mkdocsyml">Configuración de mkdocs.yml</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parte-2-creacion-de-contenido-en-markdown">Parte 2: Creación de Contenido en Markdown</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parte-3-publicacion-en-github-pages">Parte 3: Publicación en GitHub Pages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parte-4-informacion-a-entregar">Parte 4: Información a Entregar</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parte-5-evaluacion">Parte 5: Evaluación</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -83,89 +97,79 @@
                 <h1 id="guia-de-instalacion-y-configuracion">Guía de Instalación y Configuración</h1>
 <pre><code>- Examen Práctico Unidad 6 - Documentación de Aplicaciones
 
-    - Formato:
-
-    - Home: index.md
-    - Guía de Instalación Windows 11: Guía_Instalación_Windows_11.md
-    - Especificaciones Técnicas iPhone 16: Especificaciones_Técnicas_iPhone_16.md
-    - Descarga de la documentación en formato PDF: PDF.md
+- Formato:
 </code></pre>
 <ul>
+<li>Home: index.md</li>
+<li>Guía de Instalación Windows 11: Guía_Instalación_Windows_11.md</li>
+<li>Especificaciones Técnicas iPhone 16: Especificaciones_Técnicas_iPhone_16.md</li>
 <li>
-<p>Instrucciones:</p>
-</li>
-<li>
-<p>Crea un repositorio en GitHub llamado Examen_Unidad_6</p>
-</li>
-<li>
-<p>Clona el repositorio en tu máquina local.</p>
-</li>
-<li>
-<p>Crea la estructura inicial del proyecto utilizando MkDocs.</p>
+<p>Descarga de la documentación en formato PDF: PDF.md</p>
+<ul>
+<li>Instrucciones:</li>
+</ul>
 </li>
 </ul>
-<p>Parte 1: Configuración de MkDocs</p>
+<h2 id="parte-1-configuracion-de-mkdocs">Parte 1: Configuración de MkDocs</h2>
 <ol>
-<li>
-<p>Edita el archivo mkdocs.yml para personalizar el sitio web. Debe contener como mínimo las siguientes páginas:</p>
-<p>Inicio
-Guía de Instalación Windows 11
-Especificaciones Técnicas iPhone 16
-Descarga de la documentación en formato PDF</p>
-</li>
-<li>
-<p>Configura el tema readthedocs en mkdocs.yml.</p>
-</li>
+<li>Crear un repositorio en GitHub llamado <code>Examen_Unidad_6</code>.</li>
+<li>Clonar el repositorio en la máquina local.</li>
+<li>Inicializar un proyecto con MkDocs.</li>
 </ol>
-<p>Parte 2: Creación de Contenido en Markdown</p>
+<h3 id="configuracion-de-mkdocsyml">Configuración de <code>mkdocs.yml</code></h3>
+<ul>
+<li>Agregar las siguientes páginas:</li>
+<li><strong>Inicio</strong></li>
+<li><strong>Guía de Instalación Windows 11</strong></li>
+<li><strong>Especificaciones Técnicas iPhone 16</strong></li>
+<li><strong>Descarga de la documentación en PDF</strong></li>
+<li>Configurar el tema <code>readthedocs</code>.</li>
+</ul>
+<h2 id="parte-2-creacion-de-contenido-en-markdown">Parte 2: Creación de Contenido en Markdown</h2>
 <ol>
+<li><strong>Página de Inicio</strong> (<code>index.md</code>):</li>
+<li>Título.</li>
+<li>Breve descripción.</li>
 <li>
-<p>Página de Inicio: Crea un archivo index.md en el directorio docs con el contenido de la página de inicio. Incluye:</p>
-<p>Un título.
-Una breve descripción.
-Un índice de las secciones de la documentación.</p>
+<p>Índice de secciones.</p>
 </li>
 <li>
-<p>Guía Completa para la Instalación de Windows 11: Crea un archivo llamado instalacion_windows11.md en el directorio docs. Para ello, utiliza la información del archivo "Guía Completa para la Instalación de Windows 11" proporcionado como material para este examen.</p>
+<p><strong>Guía de Instalación de Windows 11</strong> (<code>instalacion_windows11.md</code>):</p>
 </li>
 <li>
-<p>Especificaciones Técnicas - iPhone 16: Crea un archivo llamado especificaciones_iphone16.md en el directorio docs.  Para ello, utiliza la información del archivo Especificaciones técnicas - iPhone 16 proporcionado como material para este examen.</p>
+<p>Utilizar la información proporcionada en el material del examen.</p>
 </li>
 <li>
-<p>Descarga en formato PDF: Asegúrate de que la documentación esté disponible en formato PDF y que se pueda descargar fácilmente.</p>
+<p><strong>Especificaciones Técnicas - iPhone 16</strong> (<code>especificaciones_iphone16.md</code>):</p>
 </li>
+<li>
+<p>Basado en la documentación proporcionada.</p>
+</li>
+<li>
+<p><strong>Descarga en PDF</strong>:</p>
+</li>
+<li>Asegurar que la documentación pueda descargarse en formato PDF.</li>
 </ol>
-<p>Parte 3: Publicación en GitHub Pages</p>
+<h2 id="parte-3-publicacion-en-github-pages">Parte 3: Publicación en GitHub Pages</h2>
 <ol>
-<li>
-<p>Despliega la documentación en GitHub Pages.</p>
-</li>
-<li>
-<p>Asegúrate de que la documentación se haya desplegado correctamente y sea accesible desde la URL proporcionada por GitHub Pages.</p>
-</li>
+<li>Desplegar la documentación en <strong>GitHub Pages</strong>.</li>
+<li>Verificar que la URL sea accesible y evitar errores <strong>404</strong>.</li>
 </ol>
-<p>Nota: Evita que se muestre el mensaje "Page not found 404", ya que esto afectará la calificación.</p>
-<p>Parte 4: Información a Entregar:</p>
-<ol>
-<li>
-<p>Archivo mkdocs.yml.</p>
-</li>
-<li>
-<p>Archivos *.md (Markdown).</p>
-</li>
-<li>
-<p>Archivos *.PDF</p>
-</li>
-<li>
-<p>Enlace URL del sitio GitHub con la publicación de la documentación.</p>
-</li>
-</ol>
-<p>Parte 5: Evaluación</p>
-<pre><code>La correcta configuración de MkDocs y GitHub Pages.
-La calidad y claridad del contenido en Markdown.
-La estructura y organización de la documentación.
-La entrega de los archivos y URL solicitados.
-</code></pre>
+<h2 id="parte-4-informacion-a-entregar">Parte 4: Información a Entregar</h2>
+<ul>
+<li>Archivo <code>mkdocs.yml</code>.</li>
+<li>Archivos <strong>Markdown</strong> (<code>.md</code>).</li>
+<li>Archivos <strong>PDF</strong>.</li>
+<li>Enlace <strong>GitHub Pages</strong> con la documentación publicada.</li>
+</ul>
+<h2 id="parte-5-evaluacion">Parte 5: Evaluación</h2>
+<p>Se evaluará:</p>
+<ul>
+<li>Configuración correcta de MkDocs y GitHub Pages.</li>
+<li>Calidad del contenido en <strong>Markdown</strong>.</li>
+<li>Organización de la documentación.</li>
+<li>Entrega de los archivos y enlace solicitado.</li>
+</ul>
               
             </div>
           </div><footer>
@@ -214,5 +218,5 @@ La entrega de los archivos y URL solicitados.
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-02-19 16:28:27.607667+00:00
+Build Date UTC : 2025-02-19 16:34:49.790549+00:00
 -->
