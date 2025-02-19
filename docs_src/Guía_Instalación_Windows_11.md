@@ -1,5 +1,7 @@
 # Guía Completa para la Instalación de Windows 11
 
+![w11](w11.png)
+
 ## Introducción
 Windows 11 ha sido uno de los lanzamientos más esperados, ofreciendo una experiencia más fluida, intuitiva y segura. En esta guía, te explicaremos cómo instalarlo paso a paso, desde los requisitos de hardware hasta la configuración básica.
 
